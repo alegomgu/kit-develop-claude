@@ -1,0 +1,5 @@
+# >>> idener-claude-kit: material local, no se versiona
+.claude/
+CLAUDE.md
+TASKS.md
+# <<< idener-claude-kit

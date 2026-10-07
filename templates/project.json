@@ -1,0 +1,38 @@
+{
+  "name": "",
+  "components": {
+    "backend": {
+      "path": ".",
+      "stack": "fastapi",
+      "tests": "test",
+      "build": "",
+      "test": "python -m pytest"
+    },
+    "frontend": {
+      "path": "",
+      "stack": "blazor",
+      "tests": "",
+      "build": "dotnet build",
+      "test": "dotnet test"
+    }
+  },
+  "run": {
+    "up": "",
+    "down": "",
+    "health": []
+  },
+  "preferences": {
+    "tests": "critical",
+    "close_tests": "touched",
+    "mode": "auto",
+    "smoke": "ask",
+    "browser": "ask",
+    "max_criteria": 8
+  },
+  "references": [],
+  "specs_dir": "docs/specs",
+  "contract": "",
+  "language": { "docs": "es", "code": "en", "ui": "en" },
+  "branches": { "feat": "feature/{n}-{slug}", "fix": "fix/{n}-{slug}" },
+  "protected_branches": ["main", "master"]
+}
